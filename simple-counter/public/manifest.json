@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Counter Extension"
+  },
+  "short_name": "Counter",
+  "name": "Simple Counter Extension",
+  "icons": {
+    "128": "smile.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
