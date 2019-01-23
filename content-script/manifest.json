@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Dance Dance Spidey",
+  "version": "0.0.1",
+  "description": "Adds dancing spiderman on twitter & facebook",
+  "icons": {
+    "128": "spider.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://*.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
