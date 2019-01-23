@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Weather Extension"
+  },
+  "permissions": ["geolocation"],
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "short_name": "Weather",
+  "name": "Weather Extension",
+  "icons": {
+    "128": "sun.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
