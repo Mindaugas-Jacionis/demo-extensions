@@ -6,11 +6,17 @@ body {
   width: 200px;
   height: 300px;
   padding: 10px 20px;
+  font-family: monospace;
 
   h1,
   button {
     font-size: 28px;
-    font-family: monospace;
+    line-height: 34px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 28px;
   }
 
   #root {

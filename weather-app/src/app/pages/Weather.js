@@ -36,8 +36,8 @@ class Weather extends React.Component {
 
     return (
       <Container>
-        <p>{summary}</p>
-        <p>{temperature}</p>
+        <h1>{summary}</h1>
+        <p>{`${temperature} °C`}</p>
       </Container>
     );
   }
